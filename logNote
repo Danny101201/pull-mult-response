@@ -1,0 +1,9 @@
+//顯示一行commit
+git log  --pretty=oneline
+
+//簡短log
+git log  --pretty=reference (有加每個commit時間點)
+git log  --oneline
+
+//在git log  --oneline的基礎上多了HEAD@{移動到當前版本需要的步數}
+git reglog 
